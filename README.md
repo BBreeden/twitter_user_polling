@@ -1,2 +1,4 @@
-# twitter_user_polling
+# Twitter User Polling
 Love it or hate it, Twitter is a unique platform. I wanted to study and document tweets from specific users. I wrote this program to poll a user profile every so often and document any new tweets that user composed. These tweets are then saved as JSON objects using MongoDB for future analysis.
+
+This program consists of two parts. user_polling.py can be run as a standalone that will poll 25 tweets back into the user history and record the new tweets. The file tweet_history.py can be run to record older tweets. It is recommended to run tweet_history.py first to build a historic record for the user. Then, run user_polling.py at a regular interval (30 minutes or an hour, for example) to update the records created by the tweet_history.py script.
