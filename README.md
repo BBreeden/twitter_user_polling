@@ -1,1 +1,2 @@
 # twitter_user_polling
+Love it or hate it, Twitter is a unique platform. I wanted to study and document tweets from specific users. I wrote this program to poll a user profile every so often and document any new tweets that user composed. These tweets are then saved as JSON objects using MongoDB for future analysis.
